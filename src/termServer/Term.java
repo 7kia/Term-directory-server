@@ -6,9 +6,9 @@ public class Term {
 	public String definition;
 	
 	public Term(
-		Integer id, 
-		String term, 
-		String definition
+		final Integer id, 
+		final String term, 
+		final String definition
 	) {
 		this.id = id;
 		this.term = term;
